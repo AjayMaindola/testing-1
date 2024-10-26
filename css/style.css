@@ -1,0 +1,86 @@
+header{
+ background-color: #101828;
+}
+#myMenue ul li {
+margin: 0px 10px;
+}
+.callBtn{
+    background-color: #667085;
+    color: white;
+}
+
+#bannerSection{
+    background: linear-gradient(261.99deg, #ffe3dd 2.82%, #fff8da 17.1%, rgba(255, 249, 221, 0) 31.78%, hsla(0, 100%, 90%, .04) 50.27%, rgba(255, 249, 221, .35) 67.28%, #ffeee9 77.89%, rgba(255, 238, 233, .14) 91.09%);
+}
+#mainSlider .carousel-indicators{
+bottom: -50px;
+}
+#mainSlider .carousel-indicators [data-bs-target]{
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+#bannerSection form{
+    background-color: #101828;
+}
+#bannerSection form input{
+   height: 42px;
+   border: none;
+}
+#bannerSection form .input-group-text{
+background-color: #fff;
+/* border: none; */
+}
+
+
+
+.Strategicitem-text p{
+    font-size: 20px;
+    padding: 15px;
+}
+.Strategicitem-text{
+    transition: 0.5s;
+    overflow: hidden;
+    position: relative;
+}
+.Strategicitem-text:hover{
+    transform: translateY(-10px);
+}
+.Strategicitem-text::before{
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    bottom: 0px;
+    left: -100%;
+    background-color: red;
+    transition: 0.5s;
+}
+.Strategicitem-text:hover::before{
+    left: 0%;
+}
+.sectionFourbg{
+    background-color: #101828; 
+    color: white;
+}
+.Entrance{
+    height: 350px;
+    background-color: aqua;
+    /* border-radius: 20px; */
+}
+.section-six{
+    background-color: #eef2f6;
+}
+/* .mslider{
+    background-color: #ccc;
+} */
+.slidertext{
+    border-radius: 50px 50px 0px 0px;
+}
+.slidertext h4{
+    text-align: center;
+}
+.slidertext p{
+    text-align: center;
+}
