@@ -69,9 +69,9 @@ background-color: #fff;
     background-color: aqua;
     /* border-radius: 20px; */
 }
-.section-six{
+/* .section-six{
     background-color: #eef2f6;
-}
+} */
 /* .mslider{
     background-color: #ccc;
 } */
@@ -185,4 +185,23 @@ background-color: #fff;
     opacity: 0;
 }
 
+/* FAQ SEction start */
+.faq-bg-section{
+    background-color: #f1f1f1;
+}
+.footer-bg{
+    background-color: #101828;
+}
+.f-list li{
+    list-style-type: none;
+    list-style: none;
+    padding-bottom: 10px;
+
+}
+.f-list li a{
+    color: white;
+}
+/* .f-line{
+border: 1px solid yellow;
+} */
 
